@@ -71,37 +71,33 @@ nav ul li:hover a{
 }
 /*Fine impostazioni dimensione e colore box*/
 
-
-/*Inizio posizionamento immagini scarpe*/
-.img{
+/*Inizio posizionamento contenitore immagine e testo*/
+.content{
+    margin-top: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
     text-align: center;
 }
+/*Fine posizionamento contenitore immagine e testo*/
 
+
+/*Inizio posizionamento immagini scarpe*/
 .shoes{
-    width: 70%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    width: 100%;
+    padding-bottom: 0px;
 }
 /*Fine posizionamento immagini scarpe*/
 
 
 /*Inizio formattazione e posizionamento titolo*/
-.box-title{
-    margin-top: 70px;
-    display: inline-block;
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    text-align: center; 
-}
-
 .title-size{
     font-size: 40px;
     text-transform: uppercase;
+    margin-top: 0px;
 }
 
 .title-yellow{
