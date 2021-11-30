@@ -1,0 +1,112 @@
+/*Inizio common*/
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container{
+    position: relative;
+}
+/*Fine common*/
+
+/*Inizio nav*/
+nav{
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+
+nav ul li{ 
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;  
+}
+
+nav ul li:hover a{
+    box-shadow: -5px 3px 5px lightgray;
+    opacity: 0.5;
+}
+/*Fine nav*/
+
+/*Inizio impostazioni dimensione e colore box*/
+.box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container .red{
+    background-color: red;
+}
+
+.container .green{
+    background-color:green;
+}
+
+.container .yellow{
+    background-color:yellow;
+}
+/*Fine impostazioni dimensione e colore box*/
+
+
+/*Inizio posizionamento immagini scarpe*/
+.img{
+    text-align: center;
+}
+
+.shoes{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+/*Fine posizionamento immagini scarpe*/
+
+
+/*Inizio formattazione e posizionamento titolo*/
+.box-title{
+    margin-top: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center; 
+}
+
+.title-size{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.title-yellow{
+    color: yellow;
+}
+
+.title-green{
+    color: green;
+}
+/*Fine formattazione e posizionamento titolo*/
