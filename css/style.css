@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 /*Fine common*/
 
@@ -40,3 +41,30 @@
     transform: translate(-50%, -50%); 
 }
 /*Fine posizionamento immagini scarpe*/
+
+
+/*Inizio formattazione e posizionamento titolo*/
+.box-title{
+    display: inline-block;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center; 
+}
+
+.title-size{
+    padding: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.title-yellow{
+    color: yellow;
+}
+
+.title-green{
+    color: green;
+}
+/*Fine formattazione e posizionamento titolo*/
