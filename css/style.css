@@ -3,9 +3,46 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container{
+    position: relative;
 }
 /*Fine common*/
+
+/*Inizio nav*/
+nav{
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+
+nav ul li{ 
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;  
+}
+/*Fine nav*/
 
 /*Inizio impostazioni dimensione e colore box*/
 .box{
@@ -45,6 +82,7 @@
 
 /*Inizio formattazione e posizionamento titolo*/
 .box-title{
+    margin-top: 70px;
     display: inline-block;
     position: absolute;
     top: 72%;
@@ -55,7 +93,6 @@
 }
 
 .title-size{
-    padding: 10px;
     font-size: 40px;
     text-transform: uppercase;
 }
