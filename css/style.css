@@ -10,6 +10,7 @@
 .box{
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 .container .red{
@@ -24,3 +25,18 @@
     background-color:yellow;
 }
 /*Fine impostazioni dimensione e colore box*/
+
+
+/*Inizio posizionamento immagini scarpe*/
+.img{
+    text-align: center;
+}
+
+.shoes{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+/*Fine posizionamento immagini scarpe*/
